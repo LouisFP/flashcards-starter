@@ -1,26 +1,26 @@
-# To Run
 
-Run `npm start` in the project root and the app will be available on port 3000.
+## Introduction
 
-# State
+This was a project whose base code and inspiration comes from the React course on codeCademy as part of the Full Stack Engineer course.
 
-The app's state is totally normalized, with slices for topics, quizzes, and cards.
+## Aims
+The aim of the course is to improve my react and redux skills and how to utilise specific libraries utilised often in them. I applied this to create an interface where 
+you can add topics that you wish to study, and then you can add quizzes based on these topics, and then finally you can add cards to these quizzes with both front and 
+back card descriptions respectively.
 
-# Routes
+## How to access the project
 
-- `/new-topic` – form to create a new topic
-- `/topics` – index of all topics
-- `/topics/:topicId` – page for an individual topic
-- `/new-quiz` – form to create a new quiz
-- `/quizzes` – index of all quizzes
-- `/quizzes/:quizId` – page for an individual quiz
++ Fork the repository
++ Download dependencies with:
+```bash
+ npm install
+ ```
++ Then initiate a development server with:
+```bash 
+npm start
+```
 
-# To Test
+## Skills utilised
 
-1. Create topics
-2. Create quizzes
-3. Visit the page for an individual quiz and flip the cards over
-
-# Questions
-
-Is this appropriately scoped? Does it have too many features? Too few?
+This project utilised primarily react-redux and react-toolkit, utilising hooks and slices to create an appointment planner which contains topics, quizzes associated to
+the topics and cards associated to both quizzes.
